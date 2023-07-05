@@ -172,3 +172,180 @@ header {
         width: 250px;
     } */
 }
+
+@media (max-width: 300px){
+    .services h1{
+        font-size: 2rem;
+    }
+    
+}
+
+.pricing{
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pricing h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: rgba(84,58,183,1);
+}
+
+.pricing i{
+    color: green;
+}
+
+.pricing-plan{
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    max-width: 100%;
+}
+
+.price {
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 2rem;
+    color: green;
+    text-align: center;
+}
+
+
+.pricing-plan *{
+    margin: 5px 0;
+}
+
+
+.pricing-container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.pricing-container img{
+    width: 50%;
+    max-width: 100%;
+}
+
+@media (max-width: 600px){
+    /* .pricing-container img{
+        display: none;
+
+
+        .pricing-container{
+            display: block;
+        }
+    } */
+
+    .pricing-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pricing-container img{
+        width: 100%;
+    }
+/* 
+    .pricing-plan{
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+    } */
+}
+
+.reviews{
+    text-align: center;
+    margin-top: 100px;
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.reviews h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: rgba(84,58,183,1);
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 100%;
+    gap: 10px;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    justify-self: center; /* Center horizontally */
+    align-self: center; /* Center vertically */
+}
+
+.review .name{
+    color: #1789f3;
+}
+
+.review i{
+    color: gold;
+}
+
+footer{
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    margin-top: -100px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 250px;
+    gap: 20px;
+}
+
+footer .container *{
+    margin: 0 auto;
+}
+
+footer .container p{
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cta-button{
+    text-decoration: none;
+    color: white;
+    background-color: #1789f3;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 10px !important;
+    transition: .5s ease-out;
+}
+
+
+.cta-btn:hover {
+    background-position: left;
+    font-weight: bold;
+    background-color: blue;
+    visibility: hidden;
+}
+
+.cta-btn:focus {
+    background-position: left;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.whatsapp{
+    width: 70px;
+    position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.whatsapp img{
+    width: 100%;
+}
